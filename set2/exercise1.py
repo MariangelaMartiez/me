@@ -25,7 +25,7 @@ for word in some_words:
 for x in some_words:
     print(x)
 
-print(some_words)
+#print(some_words)
 
 if len(some_words) > 3:
     print("some_words contains more than 3 words")
