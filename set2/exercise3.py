@@ -19,12 +19,10 @@ def is_odd(a_number):
 
     So if a_number modulo two is zero, then it's even.
     """
-a_number = 5
-
-if (a_number % 2) > 0:
-    print("True")
-else:   
-    print("False")
+    if (a_number % 2) == 1:
+        return True
+    else:
+        return False
 
 
 def fix_it(moves=True, should_move=True):
@@ -42,16 +40,12 @@ def fix_it(moves=True, should_move=True):
     Most people write this function with 4 return statements.
     As an extra challenge, see if you can get that down to three.
     """
-    return 
-
-if ("moves" == "true", "should_move" == "true"):
-    print("No_Problem")
-else:
-    print("Tape_it")
-if ("moves" == "false", "should_move" == "false"):
-    print("No_Problem")
-else:
-    print("oil-it")
+    if moves == should_move:
+        return "No Problem"
+    elif moves and not should_move:
+        return "Duct Tape"
+    elif not moves and should_move:
+        return "WD-40"
 
 
 def loops_preview():
@@ -74,7 +68,10 @@ def loops_1a():
     return a list of 10 items, each one a string with exacly one star in it.
     E.g.: ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*']
     """
-    return None
+    choc_list = []
+    for i in range(10):
+        choc_list.append("*")
+    return choc_list
 
 
 def loops_1c(number_of_items=5, symbol="#"):
