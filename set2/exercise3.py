@@ -42,7 +42,16 @@ def fix_it(moves=True, should_move=True):
     Most people write this function with 4 return statements.
     As an extra challenge, see if you can get that down to three.
     """
-    return None
+    return 
+
+if ("moves" == "true", "should_move" == "true"):
+    print("No_Problem")
+else:
+    print("Tape_it")
+if ("moves" == "false", "should_move" == "false"):
+    print("No_Problem")
+else:
+    print("oil-it")
 
 
 def loops_preview():
