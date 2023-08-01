@@ -250,7 +250,13 @@ def loops_6():
     You can use a variable.
     TIP: look out for the starting condition.
     """
-    return None
+    field = []
+    for i in range(10):
+        row = []
+        for j in range(i + 1):
+            row.append(str(j))
+        field.append(row)
+    return field
 
 
 def loops_7():
@@ -274,7 +280,11 @@ def loops_7():
     This is a hard problem. Use lots of experimentation and draw
     lots of diagrams!
     """
-    return None
+    field = []
+    for i in range(5):
+        row = [" "] * (4 - i) + ["*"] * (i * 2 + 1) + [" "] * (4 - i)
+        field.append(row)
+    return field
 
 
 if __name__ == "__main__":
