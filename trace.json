@@ -1,8 +1,58 @@
 [
-  "1",
+  {
+    "of_total": 11,
+    "mark": 11,
+    "results": [
+      {
+        "value": 1,
+        "name": "Run a trace on your system details"
+      },
+      {
+        "value": 1,
+        "name": "check that Python and Requests are installed"
+      },
+      {
+        "value": 1,
+        "name": "Exercise1: Print 'Hello world!'"
+      },
+      {
+        "value": 1,
+        "name": "Lab book entry completed"
+      },
+      {
+        "value": 1,
+        "name": "Update your aboutMe.yml"
+      },
+      {
+        "value": 1,
+        "name": "requestsWorking.txt exists"
+      },
+      {
+        "value": 1,
+        "name": "checkID.json exists"
+      },
+      {
+        "value": 1,
+        "name": "You've forked the me repo"
+      },
+      {
+        "value": 1,
+        "name": "You've pushed your work to GitHub: requestsWorking.txt"
+      },
+      {
+        "value": 1,
+        "name": "You've pushed your work to GitHub: checkID.json"
+      },
+      {
+        "value": 1,
+        "name": "You've got a photo for your GitHub account"
+      }
+    ],
+    "week_number": 1
+  },
   {
     "of_total": 35,
-    "mark": 26,
+    "mark": 34,
     "results": [
       {
         "value": 1,
@@ -77,7 +127,7 @@
         "name": "Exercise 0: shout - party => PARTY"
       },
       {
-        "value": 0,
+        "value": 1,
         "name": "Exercise 0: shout_with_a_number - hi, 1 => HI 1"
       },
       {
@@ -113,31 +163,31 @@
         "name": "Exercise 3: loops_1a - 1d for loop"
       },
       {
-        "value": 0,
+        "value": 1,
         "name": "Exercise 3: loops_1c - 1d with arguments"
       },
       {
-        "value": 0,
+        "value": 1,
         "name": "Exercise 3: loops_2 - 10\u00d710 stars"
       },
       {
-        "value": 0,
+        "value": 1,
         "name": "Exercise 3: loops_3 - 10 matching lists"
       },
       {
-        "value": 0,
+        "value": 1,
         "name": "Exercise 3: loops_4 - ten rising lists"
       },
       {
-        "value": 0,
+        "value": 1,
         "name": "Exercise 3: loops_5 - write the coords"
       },
       {
-        "value": 0,
+        "value": 1,
         "name": "Exercise 3: loops_6 - make a wedge"
       },
       {
-        "value": 0,
+        "value": 1,
         "name": "Exercise 3: loops_7 - pyramid of stars"
       },
       {
@@ -148,41 +198,9 @@
     "week_number": 2
   },
   {
-    "of_total": 29,
+    "of_total": 21,
     "mark": 6,
     "results": [
-      {
-        "value": 0,
-        "name": "Exercise 1: Loop ranger (3, 8, 1)"
-      },
-      {
-        "value": 0,
-        "name": "Exercise 1: Loop ranger (100, 104, 2)"
-      },
-      {
-        "value": 0,
-        "name": "Exercise 1: Two step ranger (100, 104)"
-      },
-      {
-        "value": 0,
-        "name": "Exercise 1: Two step ranger (100, 104)"
-      },
-      {
-        "value": 0,
-        "name": "Exercise 1: Stubborn asker"
-      },
-      {
-        "value": 0,
-        "name": "Exercise 1: Stubborn asker"
-      },
-      {
-        "value": 0,
-        "name": "Exercise 1: not_number_rejector"
-      },
-      {
-        "value": 0,
-        "name": "Exercise 1: test_super_asker"
-      },
       {
         "value": 1,
         "name": "Exercise 2: example guessing game"
@@ -229,43 +247,43 @@
       },
       {
         "value": 0,
-        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 26) randomly generated test value"
+        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 88) randomly generated test value"
       },
       {
         "value": 0,
-        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 80) randomly generated test value"
+        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 94) randomly generated test value"
       },
       {
         "value": 0,
-        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 65) randomly generated test value"
+        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 81) randomly generated test value"
       },
       {
         "value": 0,
-        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 49) randomly generated test value"
+        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 70) randomly generated test value"
       },
       {
         "value": 0,
-        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 60) randomly generated test value"
+        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 69) randomly generated test value"
       },
       {
         "value": 0,
-        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 56) randomly generated test value"
+        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 81) randomly generated test value"
       },
       {
         "value": 0,
-        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 76) randomly generated test value"
+        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 54) randomly generated test value"
+      },
+      {
+        "value": 0,
+        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 50) randomly generated test value"
+      },
+      {
+        "value": 0,
+        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 22) randomly generated test value"
       },
       {
         "value": 0,
         "name": "Exercise 4: binary_search (low: 0, high: 100, target: 78) randomly generated test value"
-      },
-      {
-        "value": 0,
-        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 87) randomly generated test value"
-      },
-      {
-        "value": 0,
-        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 86) randomly generated test value"
       }
     ],
     "week_number": 3

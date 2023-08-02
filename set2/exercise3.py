@@ -86,7 +86,7 @@ def loops_1c(number_of_items=5, symbol="#"):
     """
     choc_list = []
     for i in range(number_of_items):
-        choc_list.append("symbol")
+        choc_list.append(symbol)
     return choc_list
 
 
