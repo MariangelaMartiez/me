@@ -17,10 +17,15 @@ def loop_ranger(start, stop=None, step=1):
     Look up for how range() works in the python docs. You could  answer this
     with just the range function, but we'd like you to do it the long way.
     """
-field = []
-for i in range(i):
-    field.append(i)
-return field
+i = start
+number_list =[]
+while i in range(start, stop, step):
+    number_list.append(i)
+    i = i + step
+    if i > stop:
+        break
+return number_list
+
 
 
 def two_step_ranger(start, stop):
