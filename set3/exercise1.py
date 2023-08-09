@@ -19,7 +19,7 @@ def loop_ranger(start, stop=None, step=1):
     """
     number_list = []
     i = start
-   # stop = None
+    # stop = None
     while i < stop:
         number_list.append(i)
         i = i + step
@@ -34,7 +34,13 @@ def two_step_ranger(start, stop):
 
     You can either reuse loop_ranger, or the range function that in the standard library
     """
-    return None
+    step = 2
+    number_list = []
+    i = start
+    while i < stop:
+        number_list.append(i)
+        i = i + step
+    return number_list
 
 
 def stubborn_asker(low, high):
@@ -45,7 +51,15 @@ def stubborn_asker(low, high):
 
     Look up the docs for a function called "input"
     """
-    return None
+    a_number = []
+    while True:
+        input_number = int(input("Please enter a number: "))
+        if low < input_number < high:
+            print("Thanks!")
+            return input_number
+        else:
+            print("Number is outside the allow range")
+    return a_number
 
 
 def not_number_rejector(message):
