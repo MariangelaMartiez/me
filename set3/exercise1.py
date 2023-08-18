@@ -95,12 +95,13 @@ def super_asker(low, high):
         except ValueError as val_err:
             print("that is not really a number, try again", val_err)
 
+
 if __name__ == "__main__":
-    this section does a quick test on your results and prints them nicely.
-    It's NOT the official tests, they are in tests.py as usual.
-    Add to these tests, give them arguments etc. to make sure that your
-    code is robust to the situations that you'll see in action.
-    NOTE: because some of these take user input you can't run them from
+    # this section does a quick test on your results and prints them nicely.
+    #  It's NOT the official tests, they are in tests.py as usual.
+    # Add to these tests, give them arguments etc. to make sure that your
+    # code is robust to the situations that you'll see in action.
+    #   NOTE: because some of these take user input you can't run them from
 
     print("\nloop_ranger", loop_ranger(1, 10, 2))
     print("\ntwo_step_ranger", two_step_ranger(1, 10))

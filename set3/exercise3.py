@@ -40,20 +40,35 @@ def advancedGuessingGame():
 
     guessed = False
 
-    while not guessed:
-      try:
-        guessedNumber = int(input("Guess a number: "))
-        print(f"You guessed {guessedNumber},")
-        if guessedNumber == actualNumber:
-            print(f"You got it!! It was {actualNumber}")
-            guessed = True
-        elif guessedNumber < actualNumber:
-            print("Too small, try again :'(")
-        else:
-            print("Too big, try again :'(")
-        return "You got it!"
-      except ValueError as val_err:
-        print("that is not really a number, try again", val_err)
+    while True:
+            message = "guess a number in a range"
+            try:
+                result = input(message)
+                if int(result) < lowerBound:
+                    print("Too low")
+                elif int(result) > upperBound:
+                    print ("Too high")
+                else:
+                    print("Well Done")
+                return "You got it!"
+            except ValueError as val_err:
+                print("that is not really a number, try again", val_err)
+                
+
+    #while not guessed:
+        #guessedNumber = int(input("Guess a number: "))
+        #print(f"You guessed {guessedNumber},")
+        #if guessedNumber == actualNumber:
+            #print(f"You got it!! It was {actualNumber}")
+            #guessed = True
+        #elif guessedNumber < actualNumber:
+            #print("Too small, try again :'(")
+        #else:
+            #print("Too big, try again :'(")
+        #return "You got it!"
+    #except ValueError as val_err:
+        #print("that is not really a number, try again", val_err)
+        #return "You got it!"
     
     # the tests are looking for the exact string "You got it!". Don't modify that!
 
